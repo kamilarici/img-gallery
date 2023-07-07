@@ -1,0 +1,28 @@
+body {
+  text-align: center;
+  background-color: rgb(95, 91, 91);
+  color: white;
+}
+h1 {
+  color: salmon;
+}
+.img {
+  width: 250px;
+  height: 350px;
+  border-radius: 20px;
+  transition: all 2s;
+  cursor: zoom-in;
+  &:hover {
+    transform: scale(1.1);
+  }
+}
+
+.img-div {
+  display: flex;
+  overflow: hidden;
+}
+.home-div {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
